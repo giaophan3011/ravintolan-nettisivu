@@ -27,15 +27,32 @@
       					<a href="index.html"><h1>Kin Ravintola</h1></a>
       					<p>Hygiene certification</p>
       				</div>
+      				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+      				</button>
     			</div>
-
+    			<div id="collapsable-nav" class="collapse navbar-collapse">
+      					<!-- this is the div that will contain all the menu items-->
+      					<ul id="nav-list" class="nav navbar-nav navbar-right pull-right">
+      						<li><a href="menu-categories.html"><span class="glyphicon glyphicon-cutlery"></span><br>Menu</a></li>
+      						<li><a href="menu-categories.html"><span class="glyphicon glyphicon-asterisk"></span><br>About</a></li>
+      						<li><a href="menu-categories.html"><span class="glyphicon glyphicon-earphone"></span><br>Awards</a></li>
+      					</ul>      					
+      			</div>
 			</div>	
-
 		</nav>
+	</header>
+	<div class="container">
+		<div class="jumbotron">
+			<img src="https://interactive.wttw.com/sites/default/files/porto4_brian-768px.jpg" alt="ravintolan kuva" class="img-responsive visible-xs">
+			<!--class img-responsive makes the width and size of image change proportionally when we change the width of the browser-->
+		</div>
 		
 
-
-	</header>
+	</div>
 	<!-- jQuery (Bootstrap JS plugins depend on it)-->
 	<script type="jquery-3.3.1.min.js"></script>
 	<script type="js/bootstrap.min.js"></script>
